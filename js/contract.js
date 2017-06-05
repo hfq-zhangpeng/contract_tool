@@ -26,7 +26,7 @@ function replaceContent(content) {
 
     content = content.replace(/font-size.*?;/g, '');
 
-    content = content.replace(/span.*?underline;"/g, 'span class="line"');
+    content = content.replace(/text-decoration: underline;"/g, '" class="line"');
 
     content = content.replace(/-webkit-tap-highlight-color[^;]*?"/g, '"');
 
